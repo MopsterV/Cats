@@ -287,7 +287,8 @@ font-weight: 400;
 line-height: 60px;
 letter-spacing: 0em;
 text-align: left;
-margin-left: 30px;    
+margin-left: 30px;
+padding-left: 50px;
 }
 
 .cat {
@@ -324,10 +325,6 @@ border: 1px solid #CDCDCD;
     padding: 15px 30px;
 }
 
-
-element.style {
-}
-
 .cat ul {
     display: flex;
     width: 500px;
@@ -354,7 +351,7 @@ text-align: center;
 
 .text-Boris {
     padding: 30px;
-    
+        padding-left: 70px;
 }
 
 
