@@ -1,0 +1,389 @@
+body {
+  min-width: 960px;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+  background-color: #E6E6E6; 
+}
+
+
+li {
+list-style: none;   
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    color: #000000;
+    min-height: auto;
+    border-bottom: none;
+}
+
+.background {
+    
+    
+    
+}
+
+.main-navigation {
+  font-weight: 700;   
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+
+  background-color: transparent;
+}
+
+
+.main-navigation .container {
+  display: flex;
+  height: 60px;
+}
+
+.main-header-logo {
+    padding-left: 70px;
+}
+
+
+.main-navigation-wrapper .container {
+    position: relative;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0);
+    z-index: 2;
+    align-items: center;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+  padding: 0;
+  background-color: white;
+}
+
+.site-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.site-navigation a{
+font-family: "Oswald";
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.open {
+    position: relative;
+    top: -110px;
+    background-image: url(img/Rectangle%2017.png),url(img/index-background-desktop%201.png), linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));;   
+    background-position: right, right, center;
+    background-repeat: no-repeat, no-repeat,repeat;
+    border-radius: 0px;
+}
+
+.open-img {
+    position: relative;
+    left: 330px;
+    top: -50px;
+}
+
+
+.open-text {
+    position: relative;
+    left: 140px;
+    top: 150px;
+}
+
+.open-text h1{
+    font-family: Oswald;
+font-size: 60px;
+font-weight: 400;
+line-height: 60px;
+letter-spacing: 0em;
+text-align: left;
+    padding: 0;
+    margin: 0;
+padding-bottom: 50px;
+}
+
+.open-text p{
+    font-family: Oswald;
+font-size: 20px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+.open-text a{
+background-color: #68B738;
+    font-family: Oswald;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 10px 25px;
+    position: relative;
+    left: 0px;
+    top: -400px;
+    text-transform: uppercase;
+}
+
+.way ul{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 30px;
+    justify-content: space-around;
+}
+
+
+.way li {
+    display: inline-flex;
+    background-color: #f2f2f2;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 40px;
+}
+
+.wayh {
+    text-transform: uppercase;
+    font-family: Oswald;
+font-size: 36px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+padding: 0px;
+    margin: 0px;
+}
+
+.way p{ font-family: Arial;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.way a{
+    font-family: Oswald;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: center;
+color: black;
+padding-bottom: 40px;    
+}
+
+.left {
+    display: flex;
+    align-items: flex-start;
+}
+
+.way img {
+    height: 100%;
+    width: auto;
+}
+
+
+.itswork h1{
+    font-family: Oswald;
+font-size: 60px;
+font-weight: 400;
+line-height: 60px;
+letter-spacing: 0em;
+text-align: left;
+margin-left: 30px;    
+}
+
+.itswork {
+    padding: 50px;
+}
+
+.itswork p {
+    font-family: Arial;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+position: relative;
+    top: 30px;
+    z-index: 2;
+}
+
+.itswork ul {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-right: 60px;
+}
+
+.itswork .backnumber {
+    position: relative;
+    left: 60px;
+    top: -230px;
+    font-family: Oswald;
+font-size: 280px;
+font-weight: 400;
+line-height: 280px;
+letter-spacing: 0em;
+text-align: center;
+color: #F2F2F2;
+    padding: 0px;
+    margin: 0px;
+    z-index: 0;
+}
+
+.Boris {
+    position: relative;
+    top: -150px;
+}
+
+.Boris h1{
+    font-family: Oswald;
+font-size: 60px;
+font-weight: 400;
+line-height: 60px;
+letter-spacing: 0em;
+text-align: left;
+margin-left: 30px;    
+}
+
+.cat {
+    background-color: #F2F2F2;
+    height: 462px;
+}
+
+.cat li p{
+    background-color: #F2F2F2;
+    margin: 0px;
+    text-align: center;
+}
+
+.bor {
+    color: #C4C4C4;
+    height: 27px;
+    width: 170px;
+    left: 0px;
+    top: 58px;
+    border-radius: 0px;
+    position: relative;
+    top: -15px;
+    padding: 0px;
+}
+
+.kg {
+    font-family: Oswald;
+font-size: 30px;
+font-weight: 400;
+line-height: 37px;
+letter-spacing: 0em;
+text-align: center; 
+border: 1px solid #CDCDCD;
+    padding: 15px 30px;
+}
+
+
+element.style {
+}
+
+.cat ul {
+    display: flex;
+    width: 500px;
+    height: 200px;
+    margin: 0px;
+    padding: 0px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.price {
+    font-family: Oswald;
+font-size: 20px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+        position: relative;
+    left: -5px;
+    padding-right: 25px;
+}
+
+.text-Boris {
+    padding: 30px;
+    
+}
+
+
+.cat img {
+    position: relative;
+    left: 700px;
+    top: -450px;
+}
+
+.map {
+    position: relative;
+    top: -150px;
+    height: 400px;
+}
+
+.map img {
+    height: 140%;
+}
+
+.main-footer-wrapper .container {
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-footer-wrapper .container ul {
+    display: flex;
+    padding: 0px;
+    width: 200px;
+    justify-content: space-evenly;
+}
